@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "question": "What colors contain in the flag of Bangladesh?",
+        "optionA": "Black and Blue",
+        "optionB": "Red and White",
+        "optionC": "Red and Green",
+        "optionD": "Green and Yellow",
+        "answer": "Red and Green"
+    },
+
+    {
+        "id": 2,
+        "question": "How many years after the World Cup Football is held?",
+        "optionA": "4 years",
+        "optionB": "5 years",
+        "optionC": "3 years",
+        "optionD": "1 years",
+        "answer": "4 years"
+    },
+
+    {
+        "id": 3,
+        "question": "What is the capital of USA?",
+        "optionA": "Dhaka",
+        "optionB": "New Delhi",
+        "optionC": "New York",
+        "optionD": "Washington DC",
+        "answer": "Washington DC"
+    },
+
+    {
+        "id": 4,
+        "question": "Which is the only mammal that can’t jump?",
+        "optionA": "Dog",
+        "optionB": "Elephant",
+        "optionC": "Goat",
+        "optionD": "Lion",
+        "answer": "Elephant"
+    },
+
+    {
+        "id": 5,
+        "question": "How many divisions are there in Bangladesh?",
+        "optionA": "5",
+        "optionB": "8",
+        "optionC": "6",
+        "optionD": "7",
+        "answer": "8"
+    }
+
+]

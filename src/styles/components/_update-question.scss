@@ -1,0 +1,95 @@
+#question-container {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100vw;
+
+    section {
+        background-color: rgba(0, 0, 0, 0.6);
+        border-radius: 5px;
+        padding-left: $md;
+        padding-right: $md;
+        height: 80%;
+        width: 35%;
+    }
+
+    .cube {
+        font-size: 8rem;
+        color: $orange;
+    }
+
+    h1 {
+        font-size: $lg;
+        font-weight: 400;
+        text-align: center;
+        color: $off-white;
+        margin-bottom: 30px;
+    }
+
+    .update-question-button-container {
+        width: 100%;
+    }
+
+    .cancel-button-container {
+        width: 100%;
+    }
+
+    .input {
+        width: 90%;
+        margin-top: 10px;
+        padding: 12px 20px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    #update-question-button {
+        margin-top: 10px;
+        width: 100%;
+        background-color: $green;
+        border: 0.5px solid white;
+        border-radius: 10px;
+        color: #fff;
+        display: block;
+        padding: $normal;
+        text-align: center;
+        transition: 0.3s linear all;
+    }
+
+    #cancel-button {
+        margin-top: 10px;
+        width: 100%;
+        background-color: grey;
+        border: 0.5px solid white;
+        border-radius: 10px;
+        color: #fff;
+        display: block;
+        padding: $normal;
+        text-align: center;
+        transition: 0.3s linear all;
+    }
+
+    #update-question-button:hover {
+        background-color: darken($green, 10%);
+        box-shadow: $shadow;
+    }
+
+    #cancel-button:hover {
+        background-color: darken(grey, 10%);
+        box-shadow: $shadow;
+    }
+
+    .question-container{
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    #question-container section {
+        padding: 0 $normal;
+        width: 100%;
+        height: 100%;
+    }
+}
