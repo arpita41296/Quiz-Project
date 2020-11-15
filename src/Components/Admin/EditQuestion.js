@@ -47,6 +47,9 @@ class EditQuestionPage extends Component {
                             <span className="mdi mdi-cube-outline cube"></span>
                         </div>
                         <h1>Edit Questions</h1>
+                        <div className="back-to-admin-button-container">
+                            <Link className="back-to-admin-button" to="/admin/home">Back to Admin Page</Link>
+                        </div>
                         <div className="delete-question-container">
                             <ui>
                                 {
@@ -61,9 +64,6 @@ class EditQuestionPage extends Component {
                                     })
                                 }
                             </ui>
-                        </div>
-                        <div className="back-to-admin-button-container">
-                            <Link className="back-to-admin-button" to="/admin/home">Back to Admin Page</Link>
                         </div>
                     </section>
                 </div>
